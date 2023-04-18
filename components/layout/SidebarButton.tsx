@@ -6,7 +6,7 @@ import { IoLogoSlack } from "react-icons/io";
 import useLoginModal from "@/hooks/useLoginModal";
 import useCurrentUser from "@/hooks/useCurrentUser";
 
-const SidebarTweetButton = () => {
+const SidebarButton = () => {
   const router = useRouter();
   const loginModal = useLoginModal();
   const { data: currentUser } = useCurrentUser();
@@ -71,4 +71,4 @@ const SidebarTweetButton = () => {
   );
 };
 
-export default SidebarTweetButton;
+export default SidebarButton;
